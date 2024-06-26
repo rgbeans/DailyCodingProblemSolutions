@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "Java"
+		},
+		{
+			"path":"TestResources"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
