@@ -1,4 +1,4 @@
-package com.rgbeans;
+package com.rgbeans.dce548;
 
 public class Dce548 {
 

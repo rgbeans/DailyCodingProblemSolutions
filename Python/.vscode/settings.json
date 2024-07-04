@@ -2,7 +2,7 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        ".",
+        "./Dce300",
         "-p",
         "*_test.py"
     ],
