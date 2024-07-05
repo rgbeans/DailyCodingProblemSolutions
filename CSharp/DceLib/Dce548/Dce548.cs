@@ -17,7 +17,7 @@ public static class Dce548
         int min2deg = 6;
 
         //ensure time is 5 digits long
-        if (time.Length != 5) throw new ArgumentException("argument too long");
+        if (time.Length != 5) throw new ArgumentException("argument wrong size");
 
         //split time into hours and minutes
         string[] times = time.Split(':');

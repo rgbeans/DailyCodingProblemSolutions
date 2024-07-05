@@ -7,7 +7,6 @@ public class Dce548
     [MemberData(nameof(GetData))]
     public void Test1(string time, int expectedAngle, bool expectedToThrow)
     {
-        var d = Environment.CurrentDirectory;
         if (expectedToThrow)
         {
             Assert.Throws<ArgumentException>(() => DceLib.Dce548.TimeToAngle(time));
